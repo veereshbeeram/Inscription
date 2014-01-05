@@ -1,0 +1,16 @@
+RewriteEngine on
+
+RewriteRule ^/?$ inscriptionmain.php [L,NC]
+RewriteRule ^broadcast$ inscriptionmain.php?pagename=announce [L,NC]
+RewriteRule ^submission$ inscriptionmain.php?pagename=mysub [L,NC]
+RewriteRule ^contest$ inscriptionmain.php [L,NC]
+RewriteRule ^result$ inscriptionmain.php?pagename=results [L,NC]
+RewriteRule ^faqs$ inscriptionmain.php?pagename=faq [L,NC]
+RewriteRule ^quit$ inscriptionmain.php?pagename=logout [L,NC]
+RewriteRule ^question([0-9]+)$ inscriptionmain.php?pagename=prob&probnum=$1 [L,NC]
+RewriteRule ^answer([0-9]+)$ inscriptionmain.php?pagename=subprob&probnum=$1 [L,NC]
+RewriteRule ^getipsc([0-9]+)$ ipscdownload.php?probnum=$1 [L,NC]
+
+
+
+
