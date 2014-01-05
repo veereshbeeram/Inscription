@@ -5,7 +5,7 @@ An Online Programming Contest engine
 
 In the website folder the css,js & images folders are empty. The code in these folders originally came from a purchased theme & hence copyrighted.
 
-Visit inscription.veereshbeeram.info for the sample implementation.
+Visit http://inscription.veereshbeeram.info for the sample implementation.
 
 Authors
 ===========
