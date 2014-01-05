@@ -1,0 +1,2 @@
+Apparmor config notes:
+* Assuming the target program is compiled to /judge/sandbox/run, the apparmor.config should be renamed as "judge.sandbox.run" and placed in system apparmor config folder.
